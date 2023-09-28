@@ -219,12 +219,14 @@ nav{
 .about-heading{
     width: 70vw;
     font-family: Sherika, 'Roboto',sans-serif;
-    font-size: 25px;
+    font-size: 26px;
     /* line-height: 60px; */
     /* display: flex; */
     text-align: center;
     padding: 70px 90px 70px 90px;
     margin-top: 50px;
+    margin-bottom: 40px;
+    line-height: 55px;
     /* word-spacing: 3px; */
 
 }
@@ -234,10 +236,52 @@ nav{
     /* flex-wrap: wrap; */
     flex-direction: row;
     color: #000;
+    gap: 22px;
 }
 .card{
-    width: 25vw;
+    width: 28vw;
+    height: 30.7vw;
     background-color:#f3f1ee ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+    padding: 30px 27px 0px 27px;
+    /* padding-bottom: 0px; */
+    gap: 16px;
+    border-radius: 15px;
+    /* flex-wrap: wrap; */
+}
+.card-img{
+    display: flex;
+    justify-content: center; 
+    bottom: 0px;
+    
+}
+.card-img img{
+    width: 100%;
+    bottom: 0;
+    
+
+}
+.card h2{
+    font-family: Sherika, Roboto,system-ui, -apple-system,sans-serif;
+    font-size: 28px;
+}
+
+#card-1 p{
+    margin-bottom: 10px;
+}
+#card-2 p{
+    margin-bottom: 14px;
+}
+#card-3 p{
+    margin-bottom: 35px;
+}
+.card p{
+    font-family: Roboto,system-ui, -apple-system,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 
@@ -369,6 +413,74 @@ nav{
     .hero-img img{
         width: 42vh;
     }
+
+    /* About section start */
+
+.about-heading{
+    width: 100%;
+    padding: 55px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.about-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card{
+    width: 85vw;
+    height: 86vw;
+    padding: 0px 30px 0px 30px;
+    /* padding-bottom: 0px; */
+    gap: 10px;
+    border-radius: 15px;
+}
+.card-img{
+    display: flex;
+    justify-content: center; 
+    bottom: 0px;
+    
+}
+.card-img img{
+    width: 43vw;
+    bottom: 0;
+    
+
+}
+.card h2{
+    font-family: Sherika, Roboto,system-ui, -apple-system,sans-serif;
+    font-size: 26px
+    /* font-weight: 200; */
+}
+#card-1 h2{
+    /* top: 0%; */
+    margin-bottom: 5px;
+}
+#card-1 p{
+    /* top: 0%; */
+    margin-bottom: 10px;
+}
+ #card-2 h2{
+     
+    margin-bottom: 5px;
+} 
+#card-2 p{
+    margin-bottom: 20px;
+}
+#card-3 h2{
+   
+    margin-bottom: 5px;
+}
+#card-3 p{
+    margin-bottom: 25px;
+}
+.card p{
+    font-family: Roboto,system-ui, -apple-system,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
 }
     
 
