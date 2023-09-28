@@ -2,12 +2,13 @@
     font-family: Sherika;
     src: url(assets/Sherika-ExtraBold.otf);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto',Sherika,-apple-system,  'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    font-family: 'Roboto', Sherika, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     /* user-select: none; */
 }
 
@@ -17,47 +18,55 @@ body {
     width: 100%;
     background: #f3f1ee;
 }
+
 body::-webkit-scrollbar {
     display: none;
 }
 
-nav{
-    min-width:100vw;
+nav {
+    min-width: 100vw;
     height: 6.5vw;
-    background-color:#f3f1ee;
+    background-color: #f3f1ee;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
-    min-width:95vw;
+    min-width: 95vw;
     align-items: center;
     justify-content: space-between;
     background-color: #f3f1ee;
     padding: 20px;
 }
-.left-nav{
+
+.left-nav {
     display: flex;
     width: 70vw;
-    
+
 }
-.mainLogo{
+
+.mainLogo {
     margin-left: 40px;
 }
-.mainLogo img{
+
+.mainLogo img {
     width: 8.7vw;
 }
-.list{
+
+.list {
     margin-left: 72px;
-    
+
 }
-.list ul{
-    display:flex;
+
+.list ul {
+    display: flex;
     list-style: none;
-    
+
 }
-.list ul .li-item{
+
+.list ul .li-item {
     font-size: 15px;
     margin: 0px 19px 0px 19px;
     position: relative;
@@ -65,9 +74,11 @@ nav{
 
 
 }
-.ddList{
+
+.ddList {
     position: relative;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -75,64 +86,72 @@ nav{
     top: calc(100%);
     left: -20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transition: opacity 150ms ease-in-out;
     border-radius: 6px;
-  }
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 13px 20px;
     text-decoration: none;
     font-size: 13px;
     font-weight: 500;
-    font-family: -apple-system,Roboto,sans-serif;
-    
-    display: block;
-  }
-  .dropdown-content a:hover {background-color: #f1f1f1}
+    font-family: -apple-system, Roboto, sans-serif;
 
-  .ddList:hover .dropdown-content {
-    opacity: 1;
     display: block;
-  }
-
-.right-nav{
-    width: 350px;
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-around;
-    
 }
 
-.login-btn a{
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.ddList:hover .dropdown-content {
+    opacity: 1;
+    display: block;
+}
+
+.right-nav {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.login-btn a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: 500;
     margin-left: 55px;
 }
-.book-demobtn{
+
+.book-demobtn {
     margin-right: 38px;
 }
-.book-demobtn button{
-    border:none;
-    background:#000;
+
+.book-demobtn button {
+    border: none;
+    background: #000;
     color: #e6ff00;
     width: 155px;
     height: fit-content;
-    border-radius:30px;
-    font-family:'Roboto', sans-serif;
-    font-weight:500;
-    font-size:16px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     padding: 18px 0px 18px 0px;
 
 }
+
 .arrow {
-  margin-left: 8px;
+    margin-left: 8px;
 }
-.sidebar-btn{
+
+.sidebar-btn {
     display: none;
 }
 
@@ -142,17 +161,17 @@ nav{
 
 
 /* hero-content */
-.hero-section{
+.hero-section {
     display: flex;
     width: 100vw;
     height: calc(100vh - 6.5vw);
     /* background-color: #e6ff00; */
     flex-direction: row;
     /* flex-wrap: wrap; */
-    
+
 }
 
-.hero-content{
+.hero-content {
     width: 50%;
     background-color: #f3f1ee;
     display: flex;
@@ -162,21 +181,24 @@ nav{
     padding: 0px 60px 0px 80px;
     gap: 15px;
 }
-.content-heading h1{
+
+.content-heading h1 {
     font-family: Sherika;
     font-size: 62px;
     line-height: 74px;
     word-spacing: 10px;
     letter-spacing: 2px;
 }
-#hero-span{
+
+#hero-span {
     font-family: Sherika;
     background-color: #e6ff00;
     padding: 15px 0px 0px 0px;
     display: inline-block;
 }
-.content-desc{
-    font-family: Roboto,-apple-system, system-ui,  BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.content-desc {
+    font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     font-size: 18px;
     line-height: 25px;
@@ -187,7 +209,7 @@ nav{
 /* End of hero-content */
 
 /* Hero Image */
-.hero-img{
+.hero-img {
     width: 50%;
     overflow-x: hidden;
     background-color: #f3f1ee;
@@ -197,7 +219,8 @@ nav{
     justify-content: center;
     align-items: flex-end;
 }
-.hero-img img{
+
+.hero-img img {
     width: 36.5vw;
     /* height: 50vw; */
 }
@@ -207,7 +230,7 @@ nav{
 
 /* About section start */
 
-.about{
+.about {
     width: 100vw;
     background-color: #11190c;
     color: #fff;
@@ -216,9 +239,10 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.about-heading{
+
+.about-heading {
     width: 70vw;
-    font-family: Sherika, 'Roboto',sans-serif;
+    font-family: Sherika, 'Roboto', sans-serif;
     font-size: 26px;
     /* line-height: 60px; */
     /* display: flex; */
@@ -231,17 +255,18 @@ nav{
 
 }
 
-.about-cards{
+.about-cards {
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: row;
     color: #000;
     gap: 22px;
 }
-.card{
+
+.card {
     width: 28vw;
     height: 30.7vw;
-    background-color:#f3f1ee ;
+    background-color: #f3f1ee;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -252,34 +277,40 @@ nav{
     border-radius: 15px;
     /* flex-wrap: wrap; */
 }
-.card-img{
+
+.card-img {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     bottom: 0px;
-    
-}
-.card-img img{
-    width: 100%;
-    bottom: 0;
-    
 
 }
-.card h2{
-    font-family: Sherika, Roboto,system-ui, -apple-system,sans-serif;
+
+.card-img img {
+    width: 100%;
+    bottom: 0;
+
+
+}
+
+.card h2 {
+    font-family: Sherika, Roboto, system-ui, -apple-system, sans-serif;
     font-size: 28px;
 }
 
-#card-1 p{
+#card-1 p {
     margin-bottom: 10px;
 }
-#card-2 p{
+
+#card-2 p {
     margin-bottom: 14px;
 }
-#card-3 p{
+
+#card-3 p {
     margin-bottom: 35px;
 }
-.card p{
-    font-family: Roboto,system-ui, -apple-system,sans-serif;
+
+.card p {
+    font-family: Roboto, system-ui, -apple-system, sans-serif;
     font-size: 18px;
     line-height: 25px;
 }
@@ -288,7 +319,7 @@ nav{
 
 /* Start of Service card */
 
-.about-service{
+.about-service {
     display: flex;
     background-color: #11190c;
     flex-direction: row;
@@ -297,14 +328,16 @@ nav{
     margin-bottom: 50px;
 
 }
-.service-left{
+
+.service-left {
     width: 50%;
     padding-left: 100px;
 }
-.service-left-card{
+
+.service-left-card {
     display: flex;
     flex-direction: column;
-    background-color:#f3f1ee ;
+    background-color: #f3f1ee;
     color: #000;
     border-radius: 15px;
     width: 97%;
@@ -313,44 +346,49 @@ nav{
     gap: 35px;
     padding: 35px 20px 0px 30px;
 }
-.left-card-content{
+
+.left-card-content {
     /* position: absolute; */
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
-.left-card-content h2{
-    font-family: Sherika,system-ui, -apple-system, Roboto, sans-serif;
+
+.left-card-content h2 {
+    font-family: Sherika, system-ui, -apple-system, Roboto, sans-serif;
     font-size: 28px;
 }
+
 .left-card-content p {
-    font-family:  Roboto, -apple-system,sans-serif;
+    font-family: Roboto, -apple-system, sans-serif;
     font-size: 18px;
 }
 
-.service-left-img{
+.service-left-img {
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
-.service-left-img img{
+
+.service-left-img img {
     width: 96%;
 }
 
-.service-right{
+.service-right {
     width: 50%;
     padding-right: 80px;
 }
 
-.service-right-img1 img{
-    width: 90%;
-}
-.service-right-img2 img{
+.service-right-img1 img {
     width: 90%;
 }
 
-.service-right-card{
+.service-right-img2 img {
+    width: 90%;
+}
+
+.service-right-card {
     display: flex;
     flex-direction: column;
     /* background-color:#ca7a02 ; */
@@ -361,7 +399,8 @@ nav{
     gap: 20px;
     /* padding: 0px; */
 }
-.service-right-card1{
+
+.service-right-card1 {
     background-color: #f3f1ee;
     width: 100%;
     height: 31vh;
@@ -369,21 +408,25 @@ nav{
     display: flex;
     /* align-items: center; */
 }
-.right-card1-content h3{
+
+.right-card1-content h3 {
     font-size: 28px;
-    font-family: Sherika,system-ui, -apple-system, Roboto, sans-serif;
+    font-family: Sherika, system-ui, -apple-system, Roboto, sans-serif;
 }
-.right-card1-content p{
+
+.right-card1-content p {
     font-size: 18px;
-    font-family:  Roboto,-apple-system, sans-serif,Sherika,system-ui,;
+    font-family: Roboto, -apple-system, sans-serif, Sherika, system-ui, ;
 }
-.right-card1-content{
+
+.right-card1-content {
     padding: 60px 30px 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.service-right-card2{
+
+.service-right-card2 {
     background-color: #f3f1ee;
     width: 100%;
     height: 30.5vh;
@@ -391,21 +434,25 @@ nav{
     display: flex;
     /* align-items: center; */
 }
-.right-card2-content h3{
+
+.right-card2-content h3 {
     font-size: 28px;
-    font-family: Sherika,system-ui, -apple-system, Roboto, sans-serif;
+    font-family: Sherika, system-ui, -apple-system, Roboto, sans-serif;
 }
-.right-card2-content p{
+
+.right-card2-content p {
     font-size: 18px;
-    font-family:  Roboto,-apple-system, sans-serif,Sherika,system-ui,;
+    font-family: Roboto, -apple-system, sans-serif, Sherika, system-ui, ;
 }
-.right-card2-content{
+
+.right-card2-content {
     padding: 60px 30px 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.service-right-img2 img{
+
+.service-right-img2 img {
     margin-left: 20px;
     margin-top: 35px;
 }
@@ -414,7 +461,7 @@ nav{
 
 /* Feture section */
 
-.feature{
+.feature {
     width: 100vw;
     height: 200px;
     background-color: #11190c;
@@ -425,28 +472,96 @@ nav{
     color: #fff;
     padding-top: 20px;
     gap: 20px;
-    
+
 }
-.feature-head button{
-    border:none;
-    background:#e6ff00;
+
+.feature-head button {
+    border: none;
+    background: #e6ff00;
     color: #000;
     width: 180px;
     height: fit-content;
-    border-radius:30px;
-    font-family:'Roboto', sans-serif;
-    font-weight:600;
-    font-size:16px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     padding: 15px 0px 15px 0px;
 
 }
-.feature-desc p{
-    font-family:'Roboto', sans-serif;
-    font-size:18px;
-    
+
+.feature-desc p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
 }
 
+/* Demo section starts */
 
+.demo-section {
+    width: 100vw;
+    height: 600px;
+    background-color: #11190c;
+    /* #11190c; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-container {
+    width: 1200px;
+    height: 345px;
+    background-color: #e6ff00;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.demo-content {
+    width: 50%;
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.demo-content h2 {
+    font-family: Sherika, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+.demo-content p {
+    font-family: Roboto, system-ui, -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.demo-content button {
+    border: none;
+    background: #000;
+    color: #e6ff00;
+    width: 155px;
+    height: fit-content;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 18px 0px 18px 0px;
+
+}
+
+.demo-img {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 50%;
+}
+
+.demo-img img {
+    width: 580px;
+    height: 570px;
+    margin-left: 90px;
+    /* overflow-x:calc(10p) ; */
+}
 
 
 
@@ -583,10 +698,11 @@ nav{
 
     /* About section start */
 
-    .about{
+    .about {
         width: 100vw;
-        
+
     }
+
     .about-heading {
         width: 100%;
         padding: 55px;
@@ -666,184 +782,280 @@ nav{
 
 
     /* end of about cards */
- 
+
     /* Start of Service card */
 
-.about-service{
-    display: flex;
-    background-color: #11190c;
-    flex-direction: column;
-    width: 100vw;
-    margin-top: 2px;
+    .about-service {
+        display: flex;
+        background-color: #11190c;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 2px;
 
-}
-.service-left{
-    width: 100vw;
-    padding:20px;
-    display: flex;
-    /* background-color: #e6ff00; */
-    justify-content: center;
-    padding-bottom: 0px;
-    /* align-items: center; */
-}
-.service-left-card{
-    display: flex;
-    flex-direction: column;
-    background-color:#f3f1ee ;
-    color: #000;
-    border-radius: 15px;
-    width: 100%;
-    min-height: 10vh;
-    /* position: relative; */
-    align-items: center;
-    /* gap: 20px; */
-    padding: 35px 20px 0px 20px;
-    margin: 0px 10px 0px 10px;
-}
-.left-card-content{
-    /* position: absolute; */
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.left-card-content h2{
-    font-family: Sherika,system-ui, -apple-system, Roboto, sans-serif;
-    font-size: 28px;
-}
-.left-card-content p {
-    font-family:  Roboto, -apple-system,sans-serif;
-    font-size: 18px;
-}
+    }
 
-.service-left-img{
-    display: flex;
-    justify-content: center;
-    
-    
-}
-.service-left-img img{
-    width: 70%;
-}
+    .service-left {
+        width: 100vw;
+        padding: 20px;
+        display: flex;
+        /* background-color: #e6ff00; */
+        justify-content: center;
+        padding-bottom: 0px;
+        /* align-items: center; */
+    }
 
-.service-right{
-    /* padding-right: 80px; */
-    flex-direction: column;
-    width: 100vw;
-    padding:20px;
-    display: flex;
-    flex-direction: column;
-    /* background-color: #e6ff00; */
-    justify-content: center;
-}
+    .service-left-card {
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f1ee;
+        color: #000;
+        border-radius: 15px;
+        width: 100%;
+        min-height: 10vh;
+        /* position: relative; */
+        align-items: center;
+        /* gap: 20px; */
+        padding: 35px 20px 0px 20px;
+        margin: 0px 10px 0px 10px;
+    }
 
-.service-right-img1 img{
-    width: 90%;
-}
-.service-right-img2 img{
-    width: 95%;
-}
+    .left-card-content {
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.service-right-card{
-    display: flex;
-    flex-direction: column;
-    /* background-color:#ca7a02 ; */
-    color: #000;
-    border-radius: 15px;
-    width: 100%;
-    height: auto;
-    /* gap: 10px; */
-    /* padding: 0px; */
-}
-.service-right-card1{
-    background-color: #f3f1ee;
-    width: auto;
-    height: auto;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 10px 0px 10px;
-}
-.right-card1-content h3{
-    font-size: 28px;
-    font-family: Sherika,system-ui, -apple-system, Roboto, sans-serif;
-}
-.right-card1-content p{
-    font-size: 18px;
-    font-family:  Roboto,-apple-system, sans-serif,Sherika,system-ui,;
-}
-.right-card1-content{
-    padding: 30px 10px 30px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.service-right-img1, .service-right-img2{
-    display: flex;
-    justify-content: center;
-    padding:0px 5px 30px 5px;
-}
-/* .service-right-img2{
+    .left-card-content h2 {
+        font-family: Sherika, system-ui, -apple-system, Roboto, sans-serif;
+        font-size: 28px;
+    }
+
+    .left-card-content p {
+        font-family: Roboto, -apple-system, sans-serif;
+        font-size: 18px;
+    }
+
+    .service-left-img {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .service-left-img img {
+        width: 70%;
+    }
+
+    .service-right {
+        /* padding-right: 80px; */
+        flex-direction: column;
+        width: 100vw;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #e6ff00; */
+        justify-content: center;
+    }
+
+    .service-right-img1 img {
+        width: 90%;
+    }
+
+    .service-right-img2 img {
+        width: 95%;
+    }
+
+    .service-right-card {
+        display: flex;
+        flex-direction: column;
+        /* background-color:#ca7a02 ; */
+        color: #000;
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+        /* gap: 10px; */
+        /* padding: 0px; */
+    }
+
+    .service-right-card1 {
+        background-color: #f3f1ee;
+        width: auto;
+        height: auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .right-card1-content h3 {
+        font-size: 28px;
+        font-family: Sherika, system-ui, -apple-system, Roboto, sans-serif;
+    }
+
+    .right-card1-content p {
+        font-size: 18px;
+        font-family: Roboto, -apple-system, sans-serif, Sherika, system-ui, ;
+    }
+
+    .right-card1-content {
+        padding: 30px 10px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .service-right-img1,
+    .service-right-img2 {
+        display: flex;
+        justify-content: center;
+        padding: 0px 5px 30px 5px;
+    }
+
+    /* .service-right-img2{
     display: flex;
     justify-content: center;
     padding:0px 5px 30px 5px;
 } */
-.service-right-card2 {
-    background-color: #f3f1ee;
-    width: calc(100% - 20px); 
-    height: auto;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 10px; 
-    margin: 0px 10px;
-}
-.right-card2-content h3{
-    font-size: 28px;
-    font-family: Sherika,system-ui, -apple-system, Roboto, sans-serif;
-}
-.right-card2-content p{
-    font-size: 18px;
-    font-family:  Roboto,-apple-system, sans-serif,Sherika,system-ui,;
-}
-.right-card2-content{
-    padding: 30px 10px 30px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.service-right-img2 img{
-    margin-left: 20px;
-    margin-top: 30px;
-}
+    .service-right-card2 {
+        background-color: #f3f1ee;
+        width: calc(100% - 20px);
+        height: auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px;
+        margin: 0px 10px;
+    }
 
-/* Feture section */
+    .right-card2-content h3 {
+        font-size: 28px;
+        font-family: Sherika, system-ui, -apple-system, Roboto, sans-serif;
+    }
 
-.feature{
-    /* justify-content: center; */
-    align-items: center;
-    color: #fff;
-    padding-top: 10px;
-    gap: 20px;
-    
+    .right-card2-content p {
+        font-size: 18px;
+        font-family: Roboto, -apple-system, sans-serif, Sherika, system-ui, ;
+    }
+
+    .right-card2-content {
+        padding: 30px 10px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .service-right-img2 img {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    /* Feture section */
+
+    .feature {
+        /* justify-content: center; */
+        align-items: center;
+        color: #fff;
+        padding-top: 10px;
+        gap: 20px;
+
+    }
+
+    .feature-head button {
+        width: 160px;
+
+    }
+
+    .feature-desc p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0px 50px 0px 50px;
+    }
+
+    /* Demo section starts */
+
+    .demo-section {
+        width: 100vw;
+        height: 100vh;
+        background-color: #11190c;
+        /* #11190c; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .demo-container {
+        width: 95%;
+        height: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 40px;
+        
+    }
+
+    .demo-content {
+        /* width: 50%; */
+        width: 100%;
+        height: 50%;
+        padding: 20px 14px 20px 10px;
+        display: flex;
+        /* background-color: #5ee10d; */
+        flex-direction: column;
+        gap: 10px;
+        /* justify-content: flex-start; */
+    }
+
+    .demo-content h2 {
+        font-family: Sherika, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 38px;
+    }
+
+    .demo-content p {
+        font-family: Roboto, system-ui, -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .demo-content button {
+        /* border: none; */
+        /* background: #000;
+        color: #e6ff00; */
+        width: 140px;
+        height: fit-content;
+        border-radius: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 18px 0px 18px 0px;
+
+    }
+
+    .demo-img {
+        display: flex;
+        height: 50%;
+        width: 100%;
+        /* background-color: brown; */
+        justify-content: center; 
+        align-items: center;
+       
+    }
+
+    .demo-img img {
+        /* width: 100%; */
+        height: 75%;
+        /* height: 570px; */
+        /* margin-left: 90px; */
+        /* overflow-x:calc(10p) ; */
+        padding-right: 60px ;
+        padding-left: 0px;
+        /* margin-top: 50px; */
+    }
+
 }
-.feature-head button{
-    width: 160px;
-
-}
-.feature-desc p{
-    font-size:16px;
-    text-align: center;
-    padding: 0px 50px 0px 50px;
-}
-
-}
-    
-
-
-
-
-
