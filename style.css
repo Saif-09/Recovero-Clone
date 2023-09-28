@@ -1,5 +1,220 @@
+@font-face {
+    font-family: Sherika;
+    src: url(assets/Sherika-ExtraBold.otf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto',Sherika,-apple-system,  'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    /* user-select: none; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #f3f1ee;
+}
+
+nav{
+    min-width:100vw;
+    height: 6.5vw;
+    background-color:#f3f1ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    display: flex;
+    min-width:95vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f1ee;
+    padding: 20px;
+}
+.left-nav{
+    display: flex;
+    width: 70vw;
+    
+}
+.mainLogo{
+    margin-left: 40px;
+}
+.mainLogo img{
+    width: 8.7vw;
+}
+.list{
+    margin-left: 72px;
+    
+}
+.list ul{
+    display:flex;
+    list-style: none;
+    
+}
+.list ul .li-item{
+    font-size: 15px;
+    margin: 0px 19px 0px 19px;
+    position: relative;
+    cursor: pointer;
+
+
+}
+.ddList{
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    top: calc(100%);
+    left: -20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: opacity 150ms ease-in-out;
+    border-radius: 6px;
   }
+  .dropdown-content a {
+    color: black;
+    padding: 13px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: -apple-system,Roboto,sans-serif;
+    
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .ddList:hover .dropdown-content {
+    opacity: 1;
+    display: block;
+  }
+
+.right-nav{
+    width: 350px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.login-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 55px;
+}
+.book-demobtn{
+    margin-right: 38px;
+}
+.book-demobtn button{
+    border:none;
+    background:#000;
+    color: #e6ff00;
+    width: 155px;
+    height: fit-content;
+    border-radius:30px;
+    font-family:'Roboto', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    padding: 18px 0px 18px 0px;
+
+}
+.arrow {
+  margin-left: 8px;
+}
+.sidebar-btn{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav{
+        width: 100vw;
+        background-color: #e6ff00;
+        padding: 25px 0px 0px 0px;
+    }
+    .list ul .li-item {
+        display: none;
+    }
+    .mainLogo{
+        margin-left: 5px;
+        /* padding: 20px; */
+    }
+    .mainLogo img{
+        width: 190px;
+
+    }
+
+    .right-nav {
+        display: none;
+    }
+    .nav-list{
+        min-width:100vw;
+        align-items: center;
+        /* justify-content: space-between; */
+        background-color: #e4e0dc;
+        /* margin: 510px; */
+        padding: 30px 0px 15px 15px;
+    }
+    .sidebar-btn{
+        margin-right: 25px;
+        width: 32px;
+        height: 3px;
+        background: #d3d0cd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        
+    }
+    .sidebar-btn svg{
+        width: 25px;
+        height: 25px;
+    }
+}
+    
+
+
+ 
+@media (max-width: 768px) {
+    .open-sidebar-btn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+    }
+}
+
+
+
