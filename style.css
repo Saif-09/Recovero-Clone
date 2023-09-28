@@ -16,7 +16,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background: #f3f1ee;
+    background: #11190c;
 }
 
 body::-webkit-scrollbar {
@@ -563,8 +563,182 @@ nav {
     /* overflow-x:calc(10p) ; */
 }
 
+/* Footer started */
 
+footer{
+    width: 100vw;
+    height: 700px;
+    background-color: #11190c;
+    display: flex;
+    flex-direction: column;
+    /* #11190c; */
+    padding: 45px 75px 45px 75px;
+    margin-top: 20px;
+}
+.footer-upper{
+    background-color: #11190c;
+    height: 80%;
+    width: 100%;
+}
+.upper-container{
+    width: 100%;
+    display:flex;
+    height: 100%;
 
+}
+.logo-img img{
+    width: 190px;
+}
+.logo{
+    width:21% ;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.logo p{
+    font-size: 16px;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+.logo-link a{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #e6ff00;
+}
+.product{
+    width: 20%;
+    /* background-color: rgb(244, 58, 164); */
+}
+.prod-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: #e4e0dc; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 45px;
+    gap: 20px;
+}
+.prod-container h3{
+    font-size: 17px;
+    color: #fff;
+    font-family: Sherika, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+
+.features-1{
+    width: 19%;
+    /* background-color: rgb(78, 245, 31); */
+}
+.feat1-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: #a2784e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 45px;
+    gap: 20px;
+}
+.feat1-container h3{
+    font-size: 17px;
+    color: #fff;
+    font-family: Sherika, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.features-2{
+    width: 19%;
+    /* background-color: rgb(154, 7, 174); */
+}
+.feat2-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: #b2dc63; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 45px;
+    gap: 20px;
+}
+.feat2-container h3{
+    font-size: 17px;
+    color: #fff;
+    font-family: Sherika, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.company{
+    /* background-color: blueviolet; */
+    width:21% ;
+}
+.company-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: #288088; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin-left: 45px; */
+    gap: 20px;
+}
+.company-container h3{
+    font-size: 17px;
+    color: #fff;
+    font-family: Sherika, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.footer-upper a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+.footer-upper a:hover{
+    color: #e6ff00;
+}
+
+/* lOWER FOOTER START */
+.footer-lower a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+.footer-lower a:hover{
+    color: #e6ff00;
+}
+.footer-lower{
+    /* background-color: coral; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+.lower-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-desc{
+    display: flex;
+    gap: 40px;
+
+}
+.footer-desc p{
+    font-size: 14px;
+    color: #fff;
+}
+.social-icons{
+    /* background-color: aqua; */
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly ;
+    color: #fff;
+}
 
 
 
