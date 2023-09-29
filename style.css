@@ -802,7 +802,7 @@ hr {
 @media (max-width: 768px) {
     nav {
         min-width: 100vw;
-        background-color: #e6ff00;
+        background-color: #e4e0dc;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -863,9 +863,10 @@ hr {
         display: flex;
         width: 100vw;
         height: 100vh;
-        background-color: #e6ff00;
+        background-color: #f3f1ee;
         flex-direction: column;
         /* flex-wrap: wrap; */
+        padding-top: 90px;
     }
 
     .hero-content {
@@ -876,7 +877,7 @@ hr {
         flex-direction: column;
         /* align-items: center; */
         justify-content: center;
-        padding: 0px 20px 0px 20px;
+        padding: 50px 20px 0px 20px;
         /* gap: 15px; */
     }
 
@@ -910,13 +911,17 @@ hr {
     .hero-img {
         width: 100vw;
         height: 50%;
-        padding: 0px 60px 0px 60px;
+        padding: 20px 60px 0px 60px;
         display: flex;
         justify-content: center;
     }
 
     .hero-img img {
         width: 42vh;
+    }
+    #hero-btn{
+        padding-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     /* About section start */
